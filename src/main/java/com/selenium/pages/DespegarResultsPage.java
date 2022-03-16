@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class DespegarResultsPage {
-	@FindBy(xpath="//div[@class='text-container']/h6[@class='main-text']")
+	@FindBy(xpath="//div[@class='results-banner-inner']//div[@class='text-container']/h6[@class='main-text']")
 	WebElement tituloPreViaje;
 
 private WebDriver driver = null;

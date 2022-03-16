@@ -29,7 +29,7 @@ public class BaseTest {
 			  driver = new ChromeDriver();
 			  break;
 		  }
-		  case "EXPLORER":
+		  case "EDGE":
 		  {
 			  System.setProperty("webdriver.edge.driver", "D:\\Instaladores/msedgedriver.exe");
 			  Reporter.log("Abro Browser Edge");
